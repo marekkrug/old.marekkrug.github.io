@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Marek Krug{% endblock %}
+
+{% block content %}
+<div class="profile-section">
+    <img src="/static/images/profile.png" alt="Profile Picture" class="profile-image">
+    <div>
+        <h1>Marek Krug</h1>
+        <p class="intro">Willkommen auf meiner Website! Ich bin Schüler aus Berlin und habe eine Leidenschaft für Mathematik, Informatik und Programmieren</p>
+
+        <div class="interests">
+            <span class="interest-tag">Coding</span>
+            <span class="interest-tag">Bouldern</span>
+            <span class="interest-tag">Fahrradfahren</span>
+            <span class="interest-tag">Rust</span>
+            <span class="interest-tag">Python</span>
+        </div>
+    </div>
+</div>
+
+<div class="membership-links">
+    <p>Aktives Mitglied im <a href="https://berlin.ccc.de/">Chaos Computer Club Berlin</a>
+        und bei <a href="https://voltdeutschland.org/berlin/">Volt Berlin</a>.</p>
+</div>
+
+<div class="bottom">
+    <h2 class="socials-title">Socials</h2>
+    <div class="social-links">
+        <a href="https://github.com/marekkrug" class="social-link" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://mastodon.social/@murmeldin" class="social-link" title="Mastodon">
+            <i class="fab fa-mastodon"></i>
+        </a>
+    </div>
+</div>
+{% endblock %}
